@@ -2,6 +2,7 @@ on:
     push
 jobs:
     idle:
+        name: long idle name of the step
         runs-on: ubuntu-latest
         steps:
             -
