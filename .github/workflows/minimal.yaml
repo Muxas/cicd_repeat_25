@@ -7,5 +7,5 @@ jobs:
             -
                 run: |
                     echo Idle Step
-                    apt update
-                    apt install figlet
+                    sudo apt update
+                    sudo apt install figlet
