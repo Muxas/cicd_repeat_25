@@ -11,12 +11,17 @@ jobs:
                 name: prerequisites
                 run: |
                     echo Idle Step
-                    sudo apt update
-                    sudo apt install figlet
+                    # sudo apt update
+                    # sudo apt install figlet
             -
                 name: usage
                 run: |
-                    figlet hello
+                    # figlet hello
             -
                 name: github-actions-checkout
                 uses: actions/checkout@v5
+            -
+                name: List source files
+                runs: |
+                    ls -la
+                    tree .
